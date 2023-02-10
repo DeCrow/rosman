@@ -1,0 +1,35 @@
+[
+ {
+  "name": "backup_weekly",
+  "disabled": "false",
+  "start-date": "dec/07/2022",
+  "start-time": "02:05:00",
+  "interval": "7d 00:00:00",
+  "policy": "ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon",
+  "comment": "[API] monthly backup",
+  "script": "backup_weekly.rsc",
+  "alias": "backup_weekly"
+ },
+ {
+  "name": "export_weekly",
+  "disabled": "false",
+  "start-date": "dec/07/2022",
+  "start-time": "02:10:00",
+  "interval": "7d 00:00:00",
+  "policy": "ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon",
+  "comment": "[API] monthly export",
+  "script": "export_weekly.rsc",
+  "alias": "export_weekly"
+ },
+ {
+  "name": "reboot_daily",
+  "disabled": "false",
+  "start-date": "dec/07/2022",
+  "start-time": "06:05:00",
+  "interval": "24:00:00",
+  "policy": "ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon",
+  "comment": "[API] daily reboot",
+  "script": "reboot_daily.rsc",
+  "alias": "reboot_daily"
+ }
+]

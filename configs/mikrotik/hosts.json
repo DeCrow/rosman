@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Mikrotik 1",
+    "ip": "172.24.0.1",
+    "login": "rosman",
+    "pass": "password",
+    "port_api": 8728,
+    "port_ssh": 22,
+    "backup_folder": "backup",
+    "task_name": "hourly",
+    "schedules_aliases": [
+      "export_weekly",
+      "backup_weekly"
+    ],
+    "users_aliases": [
+      "teamlead"
+    ],
+    "users_allowed": [
+      "admin"
+    ]
+  },
+  {
+    "name": "Mikrotik 2",
+    "ip": "192.168.0.1",
+    "login": "rosman",
+    "pass": "password",
+    "port_api": 8728,
+    "port_ssh": 22,
+    "backup_folder": "backup",
+    "task_name": "daily",
+    "schedules_aliases": [
+      "export_weekly",
+      "backup_weekly",
+      "reboot_daily"
+    ],
+    "users_aliases": [
+      "teamlead",
+      "engineer"
+    ],
+    "users_allowed": [
+      "admin",
+      "readonly"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "login": "teamlead.login",
+    "pass": "password",
+    "group": "full",
+    "address": "",
+    "comment": "Teamlead User",
+    "alias": "teamlead",
+    "key": "example.pub"
+  },
+  {
+    "login": "engineer.login",
+    "pass": "password",
+    "group": "user",
+    "address": "",
+    "comment": "Engineer User",
+    "alias": "engineer",
+    "key": ""
+  }
+]

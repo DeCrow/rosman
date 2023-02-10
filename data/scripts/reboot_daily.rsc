@@ -1,0 +1,3 @@
+# reboot script
+
+/system/reboot

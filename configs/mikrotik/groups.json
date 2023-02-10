@@ -1,0 +1,26 @@
+[
+  {
+    "name": "full",
+    "skin": "default",
+    "comment": "Admin group",
+    "policy": "local,telnet,ssh,reboot,read,test,winbox,password,web,sniff,sensitive,api,romon,rest-api,ftp,write,policy"
+  },
+  {
+    "name": "user",
+    "skin": "default",
+    "comment": "User group",
+    "policy": "local,telnet,ssh,reboot,read,test,winbox,password,web,sniff,sensitive,api,romon,rest-api,ftp,write,!policy"
+  },
+  {
+    "name": "read",
+    "skin": "default",
+    "comment": "Read group",
+    "policy": "local,telnet,ssh,reboot,read,test,winbox,password,web,sniff,sensitive,api,romon,rest-api,!ftp,!write,!policy"
+  },
+  {
+    "name": "write",
+    "skin": "default",
+    "comment": "Write group",
+    "policy": "local,telnet,ssh,reboot,read,test,winbox,password,web,sniff,sensitive,api,romon,rest-api,!ftp,write,!policy"
+  }
+]

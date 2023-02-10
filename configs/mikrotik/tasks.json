@@ -1,0 +1,42 @@
+[
+  {
+    "name": "minutely",
+    "start": 13035600,
+    "delay": 60,
+    "expired": 10,
+    "alert": 0,
+    "note": "Every minute. On failure, repeat every 10 seconds."
+  },
+  {
+    "name": "hourly",
+    "start": 13035600,
+    "delay": 3600,
+    "expired": 600,
+    "alert": 0,
+    "note": "Hourly. If unsuccessful, repeat every 10 minutes."
+  },
+  {
+    "name": "daily",
+    "start": 13035600,
+    "delay": 86400,
+    "expired": 3600,
+    "alert": 0,
+    "note": "Daily at 00:00 (GMT+3). If unsuccessful, repeat hourly."
+  },
+  {
+    "name": "weekly",
+    "start": 13035600,
+    "delay": 604800,
+    "expired": 21600,
+    "alert": 0,
+    "note": "Weekly on Mon 00:00 (GMT+3). If unsuccessful, repeat every 6 hours."
+  },
+  {
+    "name": "monthly",
+    "start": 13035600,
+    "delay": 2592000,
+    "expired": 86400,
+    "alert": 0,
+    "note": "Every 30 days at 00:00 (GMT+3). If unsuccessful, repeat every day."
+  }
+]

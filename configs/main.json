@@ -1,0 +1,22 @@
+[
+ {
+  "name": "dir_scripts",
+  "value": "data/scripts/",
+  "note": "Directory with RouterOS scripts"
+ },
+ {
+  "name": "dir_ssh-pub-keys",
+  "value": "data/keys/",
+  "note": "Directory with public SSH keys"
+ },
+ {
+  "name": "dir_backup",
+  "value": "backup/[{host.ip}] {host.name}",
+  "note": "Backup directory"
+ },
+ {
+  "name": "dir_mikrotik-config",
+  "value": "configs/mikrotik/",
+  "note": "Mikrotik config directory"
+ }
+]
